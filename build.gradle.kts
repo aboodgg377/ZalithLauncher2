@@ -22,7 +22,7 @@ buildscript {
     }
 }
 kotlin {
-    wasmJs {
+    js(IR) {
         browser {
             commonWebpackConfig {
                 outputFileName = "zalith-web.js"
